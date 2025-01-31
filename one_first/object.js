@@ -11,3 +11,21 @@ jsuser.greeting=function(){
     console.log(`hello js user,${this.location}`)
 }
 console.log(jsuser.greeting())
+
+//const tinderuser=new Object()
+const tinderuser={}
+tinderuser.id="123abc"
+tinderuser.name="satanik"
+console.log(tinderuser)
+
+const regularuser={  //nested object
+    email:"satanik@gmail.com",
+    fullname:{
+       userfullname:{
+        firstname:"satanik",
+        lastname:"manna"
+       }
+    }
+}
+
+console.log(regularuser.fullname.userfullname)
