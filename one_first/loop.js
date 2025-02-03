@@ -41,5 +41,29 @@ for (const key in langusge) {
 
 const programming=["js","c++","ruby","swift by apple"]
 for (const key in programming) {
-    console.log(programming[key])
+    //console.log(programming[key])
 }
+
+const coding=["js","ruby","swift by apple"]
+coding.forEach((item)=>{
+    //console.log(item)
+})
+
+const mycoding=[
+    {
+        languageName:"javascript",
+        languagefilename:"js"
+    },
+    {
+        languageName:"c++",
+        languagefilename:"cpp"
+    },
+    {
+        languageName:"java",
+        languagefilename:"java"
+    }
+]
+mycoding.forEach((item)=>{
+    console.log(item.languageName)
+    console.log(item.languagefilename)
+})
