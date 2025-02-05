@@ -19,5 +19,16 @@
         document.querySelector('.language').appendChild(li)
     }
     addlanguage("python")
+
+    //edit
+    const secondelement=document.querySelector('li:nth-child(2)')
+    //secondelement.innerHTML="Mojo"
+    const newlist=document.createElement('li')
+    newlist.textContent='mojo'
+    secondelement.replaceWith(newlist)
+    
+    //remove
+    const lastlang=document.querySelector('li:last-child')
+    lastlang.remove()
 </script>
 </html>
